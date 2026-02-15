@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply tracking-tighter;
+  }
+}
+
+@layer utilities {
+  @keyframes verticalScroll {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+
+  .animate-vertical-scroll {
+    animation: verticalScroll 22s linear infinite;
+  }
+}
