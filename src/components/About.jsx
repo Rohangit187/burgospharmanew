@@ -82,11 +82,7 @@ Our approach honors the integrity of the human system—physical, emotional, and
             </div>
 
             {/* CTA */}
-            <div className="mt-10">
-              <button className="bg-yellow-500 text-white px-6 py-3 rounded-full font-medium hover:bg-orange-600 transition">
-                Discover Our Philosophy
-              </button>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { FaLeaf, FaPuzzlePiece, FaBaby, FaFemale, FaHeartbeat } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const programs = [
   {
@@ -75,10 +76,13 @@ const Programs = () => {
 
         {/* CTA */}
         <div className="mt-8 text-center">
-          <button className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-orange-100 transition">
-            Explore All Programs
-          </button>
-        </div>
+  <Link
+    to="/services"
+    className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-orange-100 transition inline-block"
+  >
+    Explore All Services
+  </Link>
+</div>
       </div>
     </section>
   );

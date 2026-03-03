@@ -6,10 +6,10 @@ const GalleryImage = () => {
     "/Image2.jpeg",
     "/Video1.mp4",
     "/Image4.jpeg",
-    "/Image5.jpeg",
-    "/Image6.jpeg",
-    "/Image7.jpeg",
-    "/Image8.jpeg",
+    "/Video2.mp4",
+    "/Video3.mp4",
+    "/Video4.mp4",
+    "/award2.jpeg",
   ];
 
   return (

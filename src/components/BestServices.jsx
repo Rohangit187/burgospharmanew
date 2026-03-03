@@ -16,80 +16,51 @@ import {
 
 const services = [
   {
-    title: "Comprehensive care for all allergies, pediatric conditions, and psychiatric disorders",
-    desc: "We identify the root cause of piles by understanding bowel habits, pain, bleeding patterns, and lifestyle factors to ensure effective and long-term care.",
+    title: "Specialisation in Allergies",
+    desc: "asthma/ Allergic rhinitis, urticaria/ gluten intolerance.",
     icon: FaUserMd,
   },
   {
-    title: "Psychiatric care with personalized, compassionate counseling wherever needed",
-    desc: "We provide comprehensive psychiatric care tailored to individual needs. Personalized and compassionate counseling is offered wherever required to support emotional well-being and recovery",
+    title: "skin allergies & skin disorders",
+    desc: "gentle homeopathic treatment that addresses the root cause to provide safe, natural, and long-lasting relief from itching, rashes, eczema, psoriasis, and other skin conditions",
     icon: FaBalanceScale,
   },
   {
-    title: "Diabetes",
-    desc: "We assess blood sugar levels, lifestyle, family history, and metabolic health to manage diabetes safely and naturally",
+    title: "Specialisation in thyorid gland diseases",
+    desc: "Expert homeopathic care focused on balancing thyroid function naturally, helping manage conditions like hypothyroidism and hyperthyroidism with safe, long-term relief.",
     icon: FaChartLine,
   },
   {
-    title: "Arthritis",
-    desc: "Joint pain and stiffness are evaluated through movement analysis, medical history, and lifestyle assessment to improve mobility.",
+    title: "All chronic diseases ",
+    desc: "Diabetes /Hypertension/ Migraines, Renal & Gall stones, Neurological Disorders.",
     icon: FaUserInjured,
   },
   {
-    title: "Disc Degeneration",
-    desc: "Back and neck problems are diagnosed by analyzing pain patterns, posture, nerve symptoms, and spinal reports.",
+    title: "Digestive disorders ",
+    desc: "Specialisation in all Gastric complaints, including constipation & PILES",
+    icon: FaUserInjured,
+  },
+  {
+    title: "Joints & Spinal complaints",
+    desc: "Gout, Rheutmatic and osteoarthritis.",
     icon: FaWheelchair,
   },
   {
-    title: "Psoriasis",
-    desc: "Skin condition is assessed by examining flare-ups, triggers, immunity, and recurrence to treat from within.",
+    title: "Comprehensive Paediatric Care for Congenital, Developmental & Behavioural Disorders",
+    desc: "All types of Paediatric disorders including Congenital, developmental and behavioural disorders.",
     icon: FaAllergies,
   },
   {
-    title: "Kidney Stones",
-    desc: "Diagnosis focuses on pain symptoms, scan reports, diet, and hydration habits to prevent recurrence.",
+    title: "Women’s Health – Specialisation in PCOS, Infertility & Menstrual Disorders",
+    desc: "Personalized homeopathic care focused on restoring hormonal balance naturally, supporting regular cycles, improving fertility, and managing PCOS and other menstrual concerns with safe and holistic treatment.",
     icon: FaProcedures,
   },
   {
-    title: "Piles",
-    desc: "We identify allergy triggers and immune sensitivity to reduce frequency and intensity of symptoms.",
+    title: "Psychiatric Disorders Care",
+    desc: "Effective and compassionate homeopathic support combined with personalized counselling sessions tailored to individual needs, promoting emotional balance, mental well-being, and long-term recovery.",
     icon: FaAllergies,
   },
-  {
-    title: "Infertility",
-    desc: "Reproductive health is evaluated through hormonal balance, cycle patterns, reports, and lifestyle factors.",
-    icon: FaBaby,
-  },
-  {
-    title: "Asthma",
-    desc: "Breathing issues are assessed by understanding triggers, immunity, and attack frequency for long-term control",
-    icon: FaLungs,
-  },
-  {
-    title: "Irregular Periods",
-    desc: "Menstrual health is diagnosed by evaluating cycle regularity, hormones, stress, and overall wellness.",
-    icon: FaFemale,
-  },
-  {
-    title: "UTI",
-    desc: "Urinary symptoms are analyzed along with reports and recurrence history for complete relief.",
-    icon: FaTint,
-  },
-  {
-    title: "Ulcer",
-    desc: "Digestive health is assessed by studying pain, acidity, food habits, and stress levels.",
-    icon: FaBurn,
-  },
-  {
-    title: "Hepatitis",
-    desc: "Liver health is evaluated through symptom analysis, medical reports, and immunity assessment.",
-    icon: FaVirus,
-  },
-  {
-    title: "Thyroid Disorder",
-    desc: "Thyroid issues are diagnosed by evaluating symptoms, hormone balance, stress levels, and available reports for a personalized approach.",
-    icon: FaVirus,
-  },
+ 
 ];
 
 const BestServices = () => {
