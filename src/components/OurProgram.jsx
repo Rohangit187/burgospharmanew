@@ -3,23 +3,23 @@ import { Link } from "react-router-dom";
 
 const programs = [
   {
-    title: "Chronic Disease Management (Root-cause Healing)",
-    desc: "Effective treatment for Asthma, Arthritis, Migraines, and more.",
+    title: "Comprehensive Skin Disease Management",
+    desc: "Advanced treatment for psoriasis, eczema, chronic dermatitis, and other long-term skin conditions.",
     icon: <FaHeartbeat />,
   },
   {
-    title: "Skin & Hair Care (Chemical-free Treatment)",
-    desc: "Natural solutions for Acne, Eczema, Psoriasis, and Hair fall.",
+    title: "Acne & Pigmentation Care",
+    desc: "Effective solutions for acne, acne scars, melasma, and uneven skin tone.",
     icon: <FaLeaf />,
   },
   {
-    title: "Child Health / Pediatrics (Immunity Boost)",
-    desc: "Safe, sweet remedies to boost your child's immunity.",
+    title: "Hair & Scalp Treatment",
+    desc: "Personalized treatment for hair fall, thinning, dandruff, and scalp disorders.",
     icon: <FaBaby />,
   },
   {
-    title: "Women's Wellness (PCOD, Thyroid Care)",
-    desc: "Holistic support for Stress, Anxiety, and Sleep disorders..",
+    title: "Infection & Allergy Treatment",
+    desc: "Expert care for fungal, bacterial, viral skin infections, and allergic skin reactions.",
     icon: <FaFemale />,
   },
 ];
@@ -38,17 +38,18 @@ const Programs = () => {
         {/* Header */}
         <div className="max-w-5xl text-black">
           <span className="inline-block bg-white/60 px-4 py-1 text-black rounded-full text-xl font-bold mb-4">
-            OUR SPECIALTIES
+            Advanced Skin Care Specializations
           </span>
 
           <h2 className="text-3xl sm:text-4xl font-extrabold leading-tight">
-             Treatment Paths Designed For            
+             Personalized Treatment Plans for           
             <span className="text-yellow-400 font-bold"> Every Patient </span>
           </h2>
 
           <p className="mt-6 text-black leading-relaxed">
-           Each treatment at Absoulte Homeopathy is thoughtfully designed to meet patients where
-            they are — physically, emotionally, and holistically.
+           Each treatment at our clinic is thoughtfully designed to
+            support patients with personalized, 
+           compassionate, and comprehensive dermatological care
           </p>
         </div>
 

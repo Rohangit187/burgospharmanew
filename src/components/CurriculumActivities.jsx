@@ -10,38 +10,38 @@ import { Link } from "react-router-dom";
 
 const activities = [
   {
-    title: "Root Cause Analysis",
-    desc: "In-depth case study and constitutional analysis to solve complex health issues.",
+    title: "Advanced Skin Diagnosis",
+    desc: "Thorough clinical evaluation to accurately diagnose skin, hair, and nail conditions for effective treatment.",
     icon: <FaSearchPlus />,
     Image: "/about-school.jpg",
   },
   {
-    title: "Clinical Research & Trials",
-    desc: "Evidence-based homeopathic treatments backed by clinical observation and discovery.",
+    title: "Evidence-Based Dermatology",
+    desc: "Scientific, research-backed treatments designed to deliver safe and proven results.",
     icon: <FaFlask />,
     Image: "/about-school.jpg",
   },
   {
-    title: "Holistic Wellness",
-    desc: "Mind-body healing through stress management and emotional well-being therapy.",
+    title: "Comprehensive Skin Wellness",
+    desc: "Holistic approach addressing underlying causes to promote long-term skin health and balance.",
     icon: <FaLeaf />,
     Image: "/about-school.jpg",
   },
   {
-    title: "Immune System Restoration",
-    desc: "Boosting natural vitality, coordination, and physical health through natural remedies.",
+    title: "Hair & Scalp Restoration",
+    desc: "Targeted solutions to strengthen hair, improve scalp health, and control hair fall.",
     icon: <FaShieldAlt />,
     Image: "/about-school.jpg",
   },
   {
-    title: "Modern Homeopathy",
-    desc: "Integration of advanced diagnostic tools with traditional homeopathic logic.",
+    title: "Modern Dermatology Care",
+    desc: "Integration of advanced medical knowledge with updated diagnostic and treatment techniques.",
     icon: <FaClinicMedical />,
     Image: "/about-school.jpg",
   },
   {
-    title: "Preventive Healthcare",
-    desc: "Building long-term health habits, immunity awareness, and disease prevention.",
+    title: "Preventive Skin Care",
+    desc: "Guidance and treatment plans focused on maintaining healthy skin and preventing future concerns.",
     icon: <FaHandsHelping />,
     Image: "/about-school.jpg",
   },
@@ -62,13 +62,13 @@ const CurriculumActivities = () => {
           </span>
 
           <h2 className="text-3xl sm:text-4xl font-extrabold text-black">
-            Healing Beyond Medicines, 
-            <span className="text-yellow-500">Designed for Real Recovery</span>
+            Beyond Symptom Relief, – 
+            <span className="text-yellow-500">Toward Complete Skin Wellness </span>
           </h2>
 
           <p className="mt-6 text-gray-700">
-            Our curriculum blends academics with experiential learning — helping
-            children grow intellectually, emotionally, and socially.
+            Our approach combines advanced medical science with personalized care — 
+            helping patients achieve healthy skin, renewed confidence, and overall well-being.
           </p>
         </div>
 

@@ -1,27 +1,27 @@
 const testimonials = [
   {
     name: "Ritu Sharma",
-    Patient: " Thyroid Disorder",
+    Patient: "Psoriasis Treatment",
     quote:
-      "The treatment approach is gentle yet very effective. The doctor took time to understand my complete history and explained everything clearly. I’m finally feeling long-term relief..",
+      "I was struggling with psoriasis for years, but after proper diagnosis and treatment at this clinic, my condition has significantly improved. The doctor explained everything clearly and provided a long-term management plan.",
   },
   {
     name: "Ankit Verma",
-    Patient: "Arthritis",
+    Patient: "Acne & Acne Scars",
     quote:
-      "The clinic feels calm and positive. From consultation to follow-ups, everything was handled with care and professionalism. Highly recommended for chronic conditions.",
+      "My acne and scars reduced noticeably within a few months of treatment. The personalized care and guidance truly made a difference.",
   },
   {
-    name: "Neha Jain",
-    Patient: "Psoriasis",
+    name: "Shreya Agarwal",
+    Patient: "Hair Fall Treatment",
     quote:
-      "I was impressed by the detailed diagnosis and personalized treatment. The improvement in my skin condition has been steady and lasting",
+      "I was facing severe hair fall, but with the doctor’s expert treatment, my hair growth has improved and hair loss is now under control",
   },
   {
     name: "Sunil Sharma",
-    Patient: "Diabetes",
+    Patient: "Skin Infection Treatment",
     quote:
-      "The doctor focuses on root-cause healing rather than temporary relief. The staff is polite, and the overall experience has been very reassuring",
+      "I received quick and effective treatment for my fungal infection. The results were visible within weeks",
   },
 ];
 

@@ -22,20 +22,22 @@ const Hero = () => {
         <div className="max-w-7xl ">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-gray-200 text-black px-4 py-2 rounded-full text-sm font-medium mb-6">
-             Natural & Gentle Healing
+             Expert Care for Healthy Skin
           </div>
 
           {/* Heading */}
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-100">
-            Healing Your  &apos;s{" "}
-            <span className="text-white"> Body From</span>
-            <span className="text-yellow-500"> Within</span>
+           Healthy Skin Starts   &apos;s{" "}
+            <span className="text-white">  with Expert</span>
+            <span className="text-yellow-500"> Care</span>
           </h1>
 
           {/* Description */}
           <p className="mt-6 text-gray-100 text-base sm:text-lg max-w-6xl leading-relaxed">
-            Experience holistic wellness through personalized homeopathic treatments that address the root cause of your health concerns.
-             We lead with heart, care, and commitment to natural healing.
+           Experience advanced dermatology care through personalized treatments
+            designed to address your skin, hair, and nail concerns effectively. 
+            We focus on expert diagnosis,
+            patient comfort, and safe, evidence-based care for healthier skin.
           </p>
 
           {/* Buttons */}
@@ -57,15 +59,15 @@ const Hero = () => {
          <div className="mt-12 grid grid-cols-3 gap-6 max-w-md mx-auto text-center">
 
             <div>
-              <h3 className="text-2xl font-bold text-yellow-400">20+</h3> 
+              <h3 className="text-2xl font-bold text-yellow-400">5+</h3> 
               <p className="text-sm text-gray-100">Years of Clinical Excellence</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-yellow-400">100000+</h3> 
+              <h3 className="text-2xl font-bold text-yellow-400">10000+</h3> 
               <p className="text-sm text-gray-100">Happy & Healthy Patients</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-yellow-400">20+</h3>
+              <h3 className="text-2xl font-bold text-yellow-400">3+</h3>
               <p className="text-sm text-gray-100">Years of Experience in Government Clinics</p>
             </div>
           </div>

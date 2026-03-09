@@ -20,25 +20,26 @@ const EducationHighlights = () => {
           {/* LEFT — CONTENT */}
           <div>
             <span className="inline-block text-sm font-medium text-yellow-600 mb-4">
-              OUR HEALING PHILOSOPHY
+              Our Dermatology Philosophy
             </span>
 
             <h2 className="text-4xl font-bold text-black leading-tight">
-              Treatment Designed for 
+             Expert Care Based 
               <span className="block text-yellow-500">
-                Real Understanding
+                on Accurate Diagnosis
               </span>
             </h2>
 
             <p className="mt-6 text-gray-700 max-w-xl leading-relaxed">
-              We blend homeopathic science with personalized care to create a healing 
-              environment where patients recover naturally and gain lasting wellness.
+            We combine advanced dermatology with personalized care to create a 
+            treatment environment 
+            where patients achieve healthy skin, lasting results, and renewed confidence
             </p>
 
             <div className="mt-10 space-y-4 text-gray-800">
-              <Feature icon={<FaBook />} text="Root-cause based treatment approach" />
-              <Feature icon={<FaLaptopCode />} text="Natural & side-effect free medicines" />
-              <Feature icon={<FaGlobe />} text="Global perspective on holistic health" />
+              <Feature icon={<FaBook />} text="Accurate Diagnosis-Based Treatment" />
+              <Feature icon={<FaLaptopCode />} text="Safe & Effective Dermatological Treatments" />
+              <Feature icon={<FaGlobe />} text="Modern Approach to Skin Wellness" />
             </div>
           </div>
 
@@ -48,7 +49,7 @@ const EducationHighlights = () => {
             {/* Circular Image */}
             <div className="relative w-72 h-72 rounded-full overflow-hidden border-8 border-white shadow-xl">
               <img
-                src="/aboutBanner.png"
+                src="/Profile.jpeg"
                 alt="Learning Environment"
                 className="w-full h-full object-cover"
               />
@@ -58,13 +59,11 @@ const EducationHighlights = () => {
 
             {/* Supporting Text */}
             <p className="mt-10 text-gray-700 max-w-md">
-             Natural & gentle healing for your family. 
-             Experience holistic wellness with personalized homeopathic treatments.
+             Safe & Effective Skin Care for Your Family. Experience personalized
+              dermatology treatments for healthy skin, hair, and overall skin wellness.
             </p>
 
-            <button className="mt-6 text-sm font-medium text-black hover:underline">
-              Explore Our Journey →
-            </button>
+            
           </div>
 
         </div>

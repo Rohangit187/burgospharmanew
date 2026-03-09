@@ -16,48 +16,48 @@ import {
 
 const services = [
   {
-    title: "Specialisation in Allergies",
-    desc: "asthma/ Allergic rhinitis, urticaria/ gluten intolerance.",
+    title: "Diseases of the Skin",
+    desc: "Comprehensive diagnosis and treatment for acute and chronic skin conditions.",
     icon: FaUserMd,
   },
   {
-    title: "skin allergies & skin disorders",
-    desc: "gentle homeopathic treatment that addresses the root cause to provide safe, natural, and long-lasting relief from itching, rashes, eczema, psoriasis, and other skin conditions",
+    title: "Hair Fall / Hair Loss",
+    desc: "Personalized therapy to control hair thinning and promote regrowth",
     icon: FaBalanceScale,
   },
   {
-    title: "Specialisation in thyorid gland diseases",
-    desc: "Expert homeopathic care focused on balancing thyroid function naturally, helping manage conditions like hypothyroidism and hyperthyroidism with safe, long-term relief.",
+    title: "Skin Tags / Warts Removal",
+    desc: "Safe and effective removal of unwanted skin growths.",
     icon: FaChartLine,
   },
   {
-    title: "All chronic diseases ",
-    desc: "Diabetes /Hypertension/ Migraines, Renal & Gall stones, Neurological Disorders.",
+    title: "Scars / Keloid Treatment",
+    desc: "Specialized care to reduce scars and keloid formation.",
     icon: FaUserInjured,
   },
   {
-    title: "Digestive disorders ",
-    desc: "Specialisation in all Gastric complaints, including constipation & PILES",
+    title: "Eczema / Allergies",
+    desc: "Effective treatment to relieve itching, inflammation, and skin irritation",
     icon: FaUserInjured,
   },
   {
-    title: "Joints & Spinal complaints",
-    desc: "Gout, Rheutmatic and osteoarthritis.",
+    title: "Acne & Acne Scars",
+    desc: "Advanced treatment to control acne and reduce permanent scarring.",
     icon: FaWheelchair,
   },
   {
-    title: "Comprehensive Paediatric Care for Congenital, Developmental & Behavioural Disorders",
-    desc: "All types of Paediatric disorders including Congenital, developmental and behavioural disorders.",
+    title: "Hair & Nail Disorders",
+    desc: "Expert care for hair problems and nail-related diseases.",
     icon: FaAllergies,
   },
   {
-    title: "Women’s Health – Specialisation in PCOS, Infertility & Menstrual Disorders",
-    desc: "Personalized homeopathic care focused on restoring hormonal balance naturally, supporting regular cycles, improving fertility, and managing PCOS and other menstrual concerns with safe and holistic treatment.",
+    title: "Melasma Treatment",
+    desc: "Targeted solutions for pigmentation and uneven skin tone",
     icon: FaProcedures,
   },
   {
-    title: "Psychiatric Disorders Care",
-    desc: "Effective and compassionate homeopathic support combined with personalized counselling sessions tailored to individual needs, promoting emotional balance, mental well-being, and long-term recovery.",
+    title: "Other Dermatological Services",
+    desc: "Consultation and treatment for various additional skin concerns..",
     icon: FaAllergies,
   },
  

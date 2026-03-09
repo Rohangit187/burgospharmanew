@@ -8,28 +8,28 @@ import {
 
 const facilities = [
   {
-    title: "Online Consultation (Call Facility)",
-    desc: "You can consult online through our secure online system",
+    title: "Qualified & Experienced Dermatologist",
+    desc: "Led by an MD Dermatologist with strong academic background and extensive hospital experience.",
     icon: FaPhoneAlt,
   },
   {
-    title: "Advanced Diagnostic Labs",
-    desc: "Modern diagnostic equipment for accurate assessment and treatment..",
+    title: "Comprehensive Skin, Hair & Nail Care",
+    desc: "Complete treatment solutions for all dermatological concerns under one roof.",
     icon: FaMicroscope,
   },
   {
-    title: "Well-Equipped Pharmacy",
-    desc: "In-house pharmacy with authentic, high-quality homeopathic medicines.",
+    title: "Accurate Diagnosis & Evidence-Based Treatment",
+    desc: "Scientific, result-oriented treatments tailored to each patient’s condition.",
     icon:FaCapsules,
   },
   {
-    title: "Digital Health Records (Safe Medical History)",
-    desc: "Patient health records of past in proper online system",
+    title: "Hygienic & Safe Clinical Environment",
+    desc: "Strict sterilization protocols and patient safety standards maintained at all times.",
     icon: FaNotesMedical,
   },
   {
     title: "Hygienic & Calm Environment",
-    desc: "Sterilized instruments, clean environments, and trained staff.",
+    desc: "Personalized care with clear guidance, transparency, and long-term skin health focus.",
     icon:FaLeaf,
   },
 ];
@@ -50,13 +50,13 @@ const WhyChooseUs = () => {
           </span>
 
           <h2 className="mt-4 text-4xl font-extrabold text-black">
-             Facilities That 
-            <span className="text-yellow-500"> Support Complete Healing</span>
+            Advanced Dermatology 
+            <span className="text-yellow-500"> Care Under One Roof</span>
           </h2>
 
           <p className="mt-6 text-gray-700">
-            Our clinic is thoughtfully equipped to support accurate diagnosis, 
-            effective treatment, and overall patient well-being.
+           Our clinic is thoughtfully equipped to support accurate skin diagnosis, 
+           effective dermatological treatments, and overall patient well-being
           </p>
         </div>
 
@@ -91,8 +91,8 @@ const WhyChooseUs = () => {
 
         {/* Bottom Statement */}
         <div className="mt-20 text-center max-w-xl mx-auto text-gray-700 text-sm">
-         Each treatment at Absolute Homeopathy is thoughtfully designed to
-          meet patients where they are — physically, emotionally, and holistically.
+         Each treatment at our clinic is carefully designed to provide personalized, 
+         safe, and effective dermatological care for lasting skin health
         </div>
       </div>
     </section>

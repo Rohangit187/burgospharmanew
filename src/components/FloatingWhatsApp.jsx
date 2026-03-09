@@ -1,9 +1,9 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const FloatingWhatsApp = () => {
-  const phoneNumber = "9672170090";
+  const phoneNumber = "7988632262";
   const message =
-    "Hello Absolute Homeopathy Clinic Team, I would like to consult with you regarding my health concerns and understand the right treatment approach.";
+    "Hello Dr. Neha Choudhary’s Clinic Team, I would like to consult with you regarding my skin concerns and understand the right treatment options available.";
 
   return (
     <a

@@ -3,9 +3,9 @@ const AboutUs = () => {
     <section className="relative py-10 bg-[#FFF8F2]">
       <div className="max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-snug text-center">
-              More Than a Clinic, 
+             Advanced Skin Care, 
               
-              <span className="text-blue-500" > A Place to Heal</span>
+              <span className="text-blue-500" >  with a Personal Touch</span>
             </h2>
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           
@@ -30,17 +30,11 @@ const AboutUs = () => {
           <div>
 
             <p className="text-gray-600 leading-relaxed mt-5">
-             The Evolution of Healing
-
-The Spirituality of Science
-
-Healing is most powerful where science meets inner wisdom. Just as spirituality moves beyond rigid belief systems to seek deeper truth, homeopathy goes beyond symptom suppression to understand the body as an intelligent, self-regulating system.
-
-Modern medicine often focuses on silencing symptoms rather than listening to them. We believe symptoms are signals, not enemies—messages that reveal deeper imbalances within the body.
-
-Homeopathy represents the evolution of medicine. It works with the body’s natural intelligence, restoring balance at the root instead of suppressing expression.
-
-Our approach honors the integrity of the human system—physical, emotional, and energetic—offering healing that is conscious, compassionate, and complete
+              Our clinic is led by Dr. Neha Choudhary, a qualified 
+              and experienced dermatologist specializing in skin, hair, nail, and venereal diseases. 
+              She completed her MBBS from PGIMS, Rohtak and earned her MD in Dermatology  from SMS Medical College, Jaipur.
+               With Couple Of  years of experience as a Senior Resident at MMIMSR Mullana, Ambala, she has managed a wide range of dermatological conditions including acne, psoriasis, eczema, pigmentation, hair loss, skin infections, and leprosy. Combining strong academic training with practical expertise, Dr. Neha provides personalized, 
+              evidence-based treatments focused on long-term skin health and patient satisfaction
             </p>
 
             {/* <p className="mt-4 text-gray-600 leading-relaxed">
@@ -53,20 +47,20 @@ Our approach honors the integrity of the human system—physical, emotional, and
             <div className="mt-6 grid sm:grid-cols-2 gap-6">
               {[
                 {
-                  title: "Patient-Centered Care",
-                  desc: "Every decision starts with what's best for the patient..",
+                  title: "Qualified Expertise",
+                  desc: "Led by an MD Dermatologist with advanced academic training and SMS hospital experience.",
                 },
                 {
-                  title: "Expert Homeopaths",
-                  desc: "Doctors who listen, guide, and genuinely understand..",
+                  title: "Comprehensive Skin Care",
+                  desc: "Complete treatment for skin, hair, nail, and venereal diseases under one roof.",
                 },
                 {
-                  title: "Safe & Natural (No Side-effects)",
-                  desc: "100% natural medicines with zero side effects..",
+                  title: "Personalized Treatment Approach",
+                  desc: "Customized, evidence-based care focused on root cause and long-term results.",
                 },
                 {
-                  title: "Holistic Root-Cause Approachy",
-                  desc: "Treating the root cause, not just symptoms.",
+                  title: "Safe & Hygienic Environment",
+                  desc: "High standards of cleanliness, patient privacy, and ethical medical practice",
                 },
               ].map((item) => (
                 <div

@@ -1,8 +1,8 @@
 const AboutUsUniqueness = () => {
   const points = [
-    "Certified & Experienced Homeopathic Practitioners",
-    "Advanced Diagnostic Assessment",
-    "Personalized Treatment Plans",
+    "Qualified & Experienced Dermatologist",
+    "Certified Dermatology Specialist",
+    "Expert Skin Care Specialist",
     "Caring & Supportive Staff",
     "Strong Values & Patient-First Culture",
     "Well-Equipped Pharmacy",
@@ -15,13 +15,14 @@ const AboutUsUniqueness = () => {
         {/* LEFT CONTENT */}
         <div>
           <h2 className="text-4xl font-bold b text-gray-900 leading-tight mb-6">
-            Healthcare That Builds <br />Confidence & Wellness
+            Dermatology Care That <br />Restores Confidence 
           </h2>
 
           <p className="text-gray-600 max-w-xl mb-10">
-            At Absolute Homeopathy, we believe healthcare is deeply personal. 
-             Every patient comes with unique health concerns, and our role is to understand the 
-             whole person and provide gentle, effective homeopathic care
+            At our clinic, we believe skin care is deeply personal. 
+            Every patient has unique skin, hair, and nail concerns, and our goal is to understand
+             each condition carefully and provide safe, effective, 
+            and personalized dermatological care.
           </p>
 
           <div className="space-y-6">
@@ -43,7 +44,7 @@ const AboutUsUniqueness = () => {
 
           {/* Tall Image */}
           <img
-            src="/lab-activities.png"
+            src="/lab-activities.jpeg"
             alt="Our School"
             className="relative h-[520px] lg:h-[620px] w-full object-cover rounded-[3rem] shadow-2xl"
           />
