@@ -1,34 +1,37 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import AboutUs from './components/About'
-import OurProgram from './components/OurProgram'
-import CurriculumActivities from './components/CurriculumActivities'
-import Footer from './components/Footer'
-import { Routes, Route } from 'react-router-dom'
-import AboutPage from './pages/AboutPage'
-import HomePage from './pages/HomePage'
-import ServicesPage from './pages/ServicesPage'
-import ContactPage from './components/Contact'
- /* import FloatingCall from './components/FloatingContact'*/
-import FloatingWhatsApp from './components/FloatingWhatsApp'
-import Gallerpage from './pages/Gallerpage'
+import { Routes, Route } from "react-router-dom";
+
+import Homepage from "./Homepage";
+import AboutUsPage from "./AboutUsPage";
+import ProductPage from "./ProductPage";
+import ContactFormpage from "./ContactFormpage";
+import FloatingWhatsApp from "./FloatingWhatsApp";
+import FloatingCall from "./FloatingContact";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/Gallery" element={<Gallerpage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/services" element={<ServicesPage />} />
-      <Route path="/contact" element={<ContactPage />} />
-     </Routes>
-{/* <FloatingCall /> */}
-     <FloatingWhatsApp />
-      <Footer />
-    </div>
-  )
-}
+      {/* Website Routes */}
+      <Routes>
+        {/* Home Page */}
+        <Route path="/" element={<Homepage />} />
 
-export default App
+        {/* About Us Page */}
+        <Route path="/about" element={<AboutUsPage />} />
+
+        {/* Products Page */}
+        <Route path="/products" element={<ProductPage />} />
+
+        {/* Contact Page */}
+        <Route path="/contact" element={<ContactFormpage />} />
+      </Routes>
+
+      {/* Floating WhatsApp Button */}
+      <FloatingWhatsApp />
+
+      {/* Floating Call Button */}
+      <FloatingCall />
+    </div>
+  );
+};
+
+export default App;
