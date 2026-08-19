@@ -18,15 +18,15 @@ const FloatingWhatsApp = () => {
         w-12 h-12
         sm:w-15 sm:h-15
         rounded-full
-        bg-[#214D96]
+        bg-[#25D366]
         shadow-lg
-        hover:bg-[#173B75]
+        hover:bg-[#20BA5A]
         transition-all
         duration-300
         animate-bounce
       "
     >
-      <FaWhatsapp className="text-3xl sm:text-4xl text-[#00AE4F]" />
+      <FaWhatsapp className="text-3xl sm:text-4xl text-white" />
     </a>
   );
 };
