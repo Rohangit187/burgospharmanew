@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const FloatingCall = () => {
   return (
     <a
-      href="tel:9521263636"
+      href="tel:919521263636"
       aria-label="Call Burgos Pharma"
       className="
         fixed bottom-23 right-6 z-50
@@ -11,15 +11,15 @@ const FloatingCall = () => {
         w-12 h-12
         sm:w-15 sm:h-15
         rounded-full
-        bg-[#214D96]
+        bg-[#25D366]
         shadow-lg
-        hover:bg-[#173B75]
+        hover:bg-[#20BA5A]
         transition-all
         duration-300
         animate-bounce
       "
     >
-      <FaPhoneAlt className="text-xl sm:text-2xl text-[#00AE4F]" />
+      <FaPhoneAlt className="text-xl sm:text-2xl text-white" />
     </a>
   );
 };
