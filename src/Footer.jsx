@@ -69,7 +69,7 @@ const Footer = () => {
                 <FaPhoneAlt className="text-yellow-500 mt-1 shrink-0" />
 
                 <a
-                  href="tel:+919521263636"
+                  href="tel:+91 9521033636"
                   className="hover:text-yellow-600 transition"
                 >
                  +91 9521033636
