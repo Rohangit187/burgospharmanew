@@ -114,10 +114,10 @@ const CompanyContactInfo = () => {
             </h3>
 
             <a
-              href="tel:9521263636"
+              href="tel:+91 9521033636"
               className="text-gray-600 hover:text-[#08A94F] transition-colors"
             >
-              +91 9521263636
+              +91 9521033636
             </a>
           </div>
 
