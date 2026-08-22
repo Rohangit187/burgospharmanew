@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const FloatingCall = () => {
   return (
     <a
-      href="tel:919521263636"
+      href="tel:+919521033636"
       aria-label="Call Burgos Pharma"
       className="
         fixed bottom-23 right-6 z-50
