@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const FloatingWhatsApp = () => {
-  const phoneNumber = "919521263636";
+  const phoneNumber = "+919521033636";
 
   const message =
     "Hello Burgos Pharma, I’m interested in your pharmaceutical products and would like to know more about your products, availability, and services.";
